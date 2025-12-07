@@ -1,0 +1,9 @@
+_target_: knowcol.models.encoders.clip_fusion2.CLIPWrapper
+model: ViT-L-14
+pretrained: commonpool_xl_s13b_b90k
+row_clip_dim: 1024
+clip_dim: 768
+latent_dim: 512
+fuser_nhead: 8
+fuser_num_layers: 2 
+isFrozen: true

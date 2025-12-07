@@ -1,0 +1,6 @@
+devices: -1                           # 用所有可用 GPU
+precision: 16-mixed                  # 16-bit 混合精度
+strategy: fsdp                       # 使用 FSDP 策略
+max_epochs: 10
+check_val_every_n_epoch: 1
+sync_batchnorm: false

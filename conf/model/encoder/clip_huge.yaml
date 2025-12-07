@@ -1,0 +1,6 @@
+_target_: knowcol.models.encoders.clip_encoders.CLIPWrapper
+model: ViT-H-14
+pretrained: laion2b_s32b_b79k
+clip_dim: 1024
+latent_dim: 1024
+isFrozen: true

@@ -1,0 +1,2 @@
+_target_: knowcol.models.kge.transH.TransH
+latent_dim: ${model.encoder.latent_dim}

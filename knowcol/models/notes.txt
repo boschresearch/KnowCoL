@@ -1,0 +1,19 @@
+KnowCoL:
+query encoder, text encoder, relation encoder are the same 
+
+KnowCoL2:
+text encoder, relation encoder are the same 
+query encoder are different
+
+KnowCoL2.1:
+text encoder and query encoder are different without relation encoder
+
+KnowCoL3:
+query encoder, text encoder, relation encoder are the same 
+different validation step
+
+KnowCoL4:
+use transformer to fuse image and query, 
+
+KnowCoL5:
+use transformer to fuse both input image/query and wikipedia text and sample image 

@@ -1,0 +1,10 @@
+defaults:
+  - encoder: clip
+  - kge: kge
+  - optimizer: adamw
+  - lr_scheduler: cosine_annealing
+_target_: knowcol.models.knowcol_wo_sample_image.KnowCoL
+beta1: 0.1
+beta2: 0.1
+temperature: 0.07
+_recursive_: false

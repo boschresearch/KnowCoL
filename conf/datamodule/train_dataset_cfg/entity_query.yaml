@@ -1,0 +1,6 @@
+_target_: knowcol.datasets.datasets.OvenDataset
+data_dir: dataset
+jsonl_files: ['oven_entity_train.jsonl', 'oven_query_train.jsonl']
+max_pt_num: 40
+negative_sampling_num: 16
+query_repeat: 10

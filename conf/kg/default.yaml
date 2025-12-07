@@ -1,0 +1,6 @@
+_target_: knowcol.datasets.kg.KG
+knowledge_base_path: dataset/knowledge_base
+entity_set_path: dataset/wikidata5m_s/entity.txt
+relation_path: dataset/wikidata5m_s/relation.txt
+triplet_h_path: dataset/wikidata5m_s/triplet_h.jsonl
+triplet_t_path: dataset/wikidata5m_s/triplet_t.jsonl

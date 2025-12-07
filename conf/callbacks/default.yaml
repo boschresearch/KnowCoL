@@ -1,0 +1,3 @@
+defaults:
+  - checkpoint: topk
+  - kl_schedule: constant

@@ -1,0 +1,27 @@
+datamodule1: 
+  defaults:
+    - train_dataset_cfg: entity_query
+    - val_dataset_cfg: entity_query
+    - test_entity_dataset_cfg: default
+    - test_query_dataset_cfg: default
+  _target_: knowcol.datasets.data_module.DataModule
+  _recursive_: false
+  num_workers: 8
+  batch_size: 128
+  tokenizer: ${model.encoder.model}
+  n_px: 224
+  shuffle_val: False
+
+datamodule2: 
+  defaults:
+    - train_dataset_cfg: entity_query
+    - val_dataset_cfg: entity_query
+    - test_entity_dataset_cfg: default
+    - test_query_dataset_cfg: default
+  _target_: knowcol.datasets.data_module.DataModule
+  _recursive_: false
+  num_workers: 8
+  batch_size: 128
+  tokenizer: ${model.encoder.model}
+  n_px: 224
+  shuffle_val: False

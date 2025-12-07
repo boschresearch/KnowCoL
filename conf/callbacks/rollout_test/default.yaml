@@ -1,0 +1,7 @@
+kg_entity_path: ${kg.entity_set_path}
+working_dir: ${hydra.run.dir}
+model: knowcol
+data_dir: dataset
+batch_size: 128
+jsonl_entity_file: ['oven_entity_test.jsonl']
+jsonl_query_file: ['oven_query_test.jsonl']

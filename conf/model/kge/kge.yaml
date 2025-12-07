@@ -1,0 +1,3 @@
+_target_: knowcol.models.kge.kge.KGE
+latent_dim: 512
+pretrained_model_path: dataset/wikidata5m+/transe_wikidata5m.pkl

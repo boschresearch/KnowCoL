@@ -1,0 +1,4 @@
+_target_: knowcol.datasets.datasets.OvenTestDataset
+data_dir: dataset
+jsonl_folder: test_data
+jsonl_files: ['oven_human.jsonl']

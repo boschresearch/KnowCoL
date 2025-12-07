@@ -1,0 +1,16 @@
+defaults:
+    - callbacks: default
+    - datamodule: default
+    - kg: v1
+    - model: knowcol
+    - trainer: default
+    - training: default
+    - logger: wandb
+
+seed: 42
+log_dir: ./
+slurm: false
+
+hydra:
+  run:
+    dir: ${log_dir}/checkpoints/${now:%Y-%m-%d}/${now:%H-%M-%S}

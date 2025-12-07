@@ -1,0 +1,5 @@
+_target_: knowcol.datasets.datasets.OvenDataset
+data_dir: dataset
+jsonl_files: ['oven_entity_val.jsonl']
+max_pt_num: 50
+negative_sampling_num: 32

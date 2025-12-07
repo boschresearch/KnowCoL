@@ -1,0 +1,6 @@
+_target_: knowcol.models.encoders.clip_encoders.CLIPWrapper
+model: ViT-L-14
+pretrained: commonpool_xl_s13b_b90k
+clip_dim: 768
+latent_dim: 768
+isFrozen: true
