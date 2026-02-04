@@ -1,7 +1,7 @@
 # Seeing and Knowing in the Wild: Open-domain Visual Entity Recognition with Large-scale Knowledge Graphs via Contrastive Learning
 
 ## Purpose of the project
-This software is a research prototype, solely developed for and published as part of the publication [Seeing and Knowing in the Wild: Open-domain Visual Entity Recognition with Large-scale Knowledge Graphs via Contrastive Learning](https://arxiv.org/abs/2510.13675) which has been accepted by **AAAI 2025**. This repository provides the official implementation of **KnowCoL**, a **K**nowledge-**g**uided **C**ontrastive **L**earning framework presented in our paper.
+This software is a research prototype, solely developed for and published as part of the publication [Seeing and Knowing in the Wild: Open-domain Visual Entity Recognition with Large-scale Knowledge Graphs via Contrastive Learning](https://arxiv.org/abs/2510.13675) which has been accepted by **AAAI 2025**. This repository provides the official implementation of **KnowCoL**, a **Know**ledge-**g**uided **C**ontrastive **L**earning framework presented in our paper.
 
 ## Introduction
 ![alt text](figures/motivation.png)
@@ -17,6 +17,7 @@ conda activate my-env
 ## Dataset
 Download the OVEN dataset from HuggingFace [here](https://huggingface.co/datasets/ychenNLP/oven/tree/main) 
 Download Wikidata subgraph for OVEN benchmark [here](https://huggingface.co/datasets/zhKingg/wikidata_oven_subgraph/tree/main)
+Download Wikipedia knowledge base for OVEN benchmark [here](https://huggingface.co/datasets/zhKingg/wikipedia_knowledge_base/)
 Place the downloaded data under the appropriate directory expected by the datamodule. E.g.,
 ```bash
 dataset/
