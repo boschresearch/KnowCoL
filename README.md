@@ -23,11 +23,15 @@ dataset/
 ├── oven_data/               # Processed OVEN annotations
 ├── oven_images/             # Image files associated with OVEN
 ├── test_data/               # Test split for evaluation
-└── wikidata_subgraph_v1/    # Extracted Wikidata subgraph
-    ├── entity.txt           # List of entity IDs and labels
-    ├── relation.txt         # List of relation IDs and names
-    ├── triplet_h.jsonl      # Head-anchored knowledge graph triples
-    └── triplet_t.jsonl      # Tail-anchored knowledge graph triples
+├── wikidata_subgraph_v1/    # Extracted Wikidata subgraph
+│   ├── entity.txt           # List of entity IDs and labels
+│   ├── relation.txt         # List of relation IDs and names
+│   ├── triplet_h.jsonl      # Head-anchored knowledge graph triples
+│   └── triplet_t.jsonl      # Tail-anchored knowledge graph triples
+└── knowledge_base
+    ├── wikipedia_images_full # contains the lead images on the Wikipedia
+    ├── Wiki6M_ver_1_1.jsonl  # contains image paths of the entities. 
+    └── wikidata_relation_1_1.jsonl # contains text descriptions of the entities.
 ```
 
 
