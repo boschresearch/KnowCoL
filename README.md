@@ -1,7 +1,7 @@
 # Seeing and Knowing in the Wild: Open-domain Visual Entity Recognition with Large-scale Knowledge Graphs via Contrastive Learning
 
 ## Purpose of the project
-This software is a research prototype, solely developed for and published as part of the publication [Seeing and Knowing in the Wild: Open-domain Visual Entity Recognition with Large-scale Knowledge Graphs via Contrastive Learning](https://arxiv.org/abs/2510.13675) which has been accepted by **AAAI 2026**. This repository provides the official implementation of **KnowCoL**, a **Know**ledge-**g**uided **C**ontrastive **L**earning framework presented in our paper.
+This software is a research prototype, solely developed for and published as part of the publication [Seeing and Knowing in the Wild: Open-domain Visual Entity Recognition with Large-scale Knowledge Graphs via Contrastive Learning](https://ojs.aaai.org/index.php/AAAI/article/view/38370) which has been accepted by **AAAI 2026**. This repository provides the official implementation of **KnowCoL**, a **Know**ledge-**g**uided **C**ontrastive **L**earning framework presented in our paper.
 
 ## Introduction
 ![alt text](figures/motivation.png)
@@ -53,4 +53,21 @@ config options:
 python3 knowcol/evaluations/oven_eval.py
 ```
 specify the checkpoint and model in the python file
+
+## Reference
+If you think this work is interesting, please consider to cite:
+```
+@article{
+    Zhou_Halilaj_Monka_Schmid_Zhu_Wu_Nazer_Staab_2026,
+    title={Seeing and Knowing in the Wild: Open-domain Visual Entity Recognition with Large-scale Knowledge Graphs via Contrastive Learning},
+    volume={40},
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/38370}, DOI={10.1609/aaai.v40i16.38370},
+    number={16},
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+    author={Zhou, Hongkuan and Halilaj, Lavdim and Monka, Sebastian and Schmid, Stefan and Zhu, Yuqicheng and Wu, Jingcheng and Nazer, Nadeem and Staab, Steffen},
+    year={2026},
+    month={Mar.},
+    pages={13638-13646}
+}
+```
 
